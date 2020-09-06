@@ -1,0 +1,39 @@
+#+TITLE: python-isort.el
+#+AUTHOR: 林玮 (Jade Lin)
+#+EMAIL: linw1995@icloud.com
+
+Emacs package to sort Python imports via isort.
+
+* Installation
+
+TODO
+
+* Usage
+
+Use one of these commands via ~M-x~ or bind them to a key:
+
+- ~python-isort-on-save-mode~
+
+  Automatically sort Python imports of the buffer on save.
+
+- ~python-isort-buffer~
+
+  Sort Python imports of the current buffer.
+
+- ~python-isort-region~
+
+  Sort Python imports of the current region.
+
+* Configuration
+
+This package has minimal configuration.
+
+- ~python-isort-command~
+- ~python-isort-extra-args~
+
+To configure the =isort= itself, use an external configuration file for your project, which has the best benefits that it can be per-project, and works with other editors or tools as well.
+
+* License
+
+BSD 3-Clause License. Copyright © 2020, 林玮 (Jade Lin)
+
