@@ -31,7 +31,7 @@ This package has minimal configuration.
 - ~python-isort-command~
 - ~python-isort-extra-args~
 
-To configure the =isort= itself, use an external configuration file for your project, which has the best benefits that it can be per-project, and works with other editors or tools as well.
+To configure the =isort= itself, use an [[https://pycqa.github.io/isort/docs/configuration/config_files/][external configuration file]] for your project, which has the best benefits that it can be per-project, and works with other editors or tools as well.
 
 * License
 
